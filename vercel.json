@@ -15,7 +15,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://uas-dss.vercel.app",
         "APP_KEY": "base64:z2Bgzh+YM5elg42eevJcb33G5vDrmwwE2rW/GF1e9IY=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
