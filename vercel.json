@@ -4,9 +4,6 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.0" }
     },
-    "redirects": [
-        { "source": "http://:path*", "destination": "https://:path*", "permanent": true }
-    ],
     "routes": [
         { "src": "/assets/(.*)", "dest": "/public/assets/$1" },
         { "src": "/(.*)", "dest": "/api/index.php"}
