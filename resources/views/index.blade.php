@@ -4,7 +4,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-      <img src="{{url('assets/img/hero-bg-abstract.jpg')}}" alt="" data-aos="fade-in" class="">
+      <img src="{{asset('assets/img/hero-bg-abstract.jpg')}}" alt="" data-aos="fade-in" class="">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-out">
@@ -71,7 +71,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-12 col-md-12">
                 <div class="text-center">
-                <img src="assets/img/dataset-cover.jpg" class="img-fluid mb-3" alt="">
+                <img src="{{asset('assets/img/dataset-cover.jpg')}}" class="img-fluid mb-3" alt="">
                 <a href="{{url('https://www.kaggle.com/datasets/bhadramohit/mental-health-dataset')}}">Mental Health Dataset</a>
               </div>
               </div><!-- End Stats Item -->
@@ -99,7 +99,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{url('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -117,7 +117,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{url('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -135,7 +135,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="{{url('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/picture_11.jpg')}}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
